@@ -7,6 +7,7 @@ Name: Hidden Blocks Category Addon
 ------
 
 Why this would be helpful: Advanced users often need the built-in but hidden Scratch blocks like while, for each, and counter blocks for more optimized coding.
+Console script: https://github.com/yotomir/hidden_scratch_blocks_file/blob/main/get_script.txt
 
 ------
 
