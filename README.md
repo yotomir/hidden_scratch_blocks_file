@@ -10,7 +10,7 @@ Why this would be helpful: Advanced users often need the built-in but hidden Scr
 
 ------
 
-How this addon works: Describe the solution you'd like: I suggest adding a new addon that enables a dedicated category (Red color) in the blocks palette containing:
+How this addon works: I suggest adding a new addon that enables a dedicated category (Red color) in the blocks palette containing:
 
 event_whentouchingobject
 
