@@ -43,3 +43,7 @@ Possible alternatives: Using browser console scripts, but an official addon woul
 
 image: https://github.com/user-attachments/assets/193b9f13-6904-497d-a3c1-f094b03ec274
 .sb3 file with hidden blocks: https://github.com/yotomir/hidden_scratch_blocks_file/releases/download/sb3/Scratch.hidden.blocks.sb3
+
+------
+
+https://github.com/ScratchAddons/ScratchAddons/issues/8745
