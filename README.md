@@ -27,6 +27,8 @@ control_clear_counter
 
 operator_round
 
+operator_join (color and text)
+
 colour_picker
 
 text_attributes_menu
