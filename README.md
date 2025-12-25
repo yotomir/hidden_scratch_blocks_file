@@ -1,1 +1,1 @@
-# hidden_scratch_blocks_file
+# Hidden scratch blocks file
