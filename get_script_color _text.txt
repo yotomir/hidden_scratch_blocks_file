@@ -1,0 +1,39 @@
+operator_join (text):
+
+const ws = Blockly.getMainWorkspace();
+const blockXML = `
+<xml>
+  <block type="operator_join">
+    <value name="STRING1">
+      <shadow type="text">
+        <field name="TEXT">font </field>
+      </shadow>
+    </value>
+    <value name="STRING2">
+      <shadow type="text_attributes_menu">
+        <field name="ATTRIBUTE">bold</field>
+      </shadow>
+    </value>
+  </block>
+</xml>`;
+Blockly.Xml.domToWorkspace(Blockly.Xml.textToDom(blockXML), ws);
+
+operator_join (color):
+
+const ws = Blockly.getMainWorkspace();
+const blockXML = `
+<xml>
+  <block type="operator_join">
+    <value name="STRING1">
+      <shadow type="text">
+        <field name="TEXT">color: </field>
+      </shadow>
+    </value>
+    <value name="STRING2">
+      <shadow type="colour_picker">
+        <field name="COLOUR">#ff0000</field>
+      </shadow>
+    </value>
+  </block>
+</xml>`;
+Blockly.Xml.domToWorkspace(Blockly.Xml.textToDom(blockXML), ws);
