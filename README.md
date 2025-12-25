@@ -39,6 +39,10 @@ image: https://github.com/user-attachments/assets/193b9f13-6904-497d-a3c1-f094b0
 
 Possible alternatives: Using browser console scripts, but an official addon would be much more stable and user-friendly for the community.
 
+const ws = Blockly.getMainWorkspace();
+const blockXML = '<xml><block type="control_while"></block></xml>';
+Blockly.Xml.domToWorkspace(Blockly.Xml.textToDom(blockXML), ws);
+
 ------
 
 image: https://github.com/user-attachments/assets/193b9f13-6904-497d-a3c1-f094b03ec274
