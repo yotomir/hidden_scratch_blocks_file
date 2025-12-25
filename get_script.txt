@@ -1,0 +1,3 @@
+const ws = Blockly.getMainWorkspace();
+const blockXML = '<xml><block type="(block ID)"></block></xml>';
+Blockly.Xml.domToWorkspace(Blockly.Xml.textToDom(blockXML), ws);
